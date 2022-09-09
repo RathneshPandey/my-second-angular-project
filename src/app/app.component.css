@@ -6,3 +6,14 @@
 .furniture {
     font-size: 80px;
 }
+
+.circle-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #bbb;
+    padding: 8px;
+}
+.table {
+    margin-top: 250px;
+}
