@@ -1,7 +1,6 @@
-/* .navbar{
-    align-items: center;
-    margin:10px 70px;
-} */
+.navbar {
+    position: fixed;
+}
 
 .furniture {
     font-size: 80px;
@@ -16,4 +15,15 @@
 }
 .table {
     margin-top: 250px;
+}
+.furniture_item{
+    height: 170px;
+}
+.inspired {
+    margin: 130px 180px;
+    align-items: center;
+
+}
+.inspired1 {
+  margin: -100px 0px 0px 700px;
 }
