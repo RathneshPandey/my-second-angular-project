@@ -1,0 +1,14 @@
+.circle-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #bbb;
+    padding: 8px;
+}
+
+.card_size {
+    width: 350px; 
+    height: 400px;
+    /* margin: 0px 70px 0px 50px; */
+    /* align-items: center; */
+}

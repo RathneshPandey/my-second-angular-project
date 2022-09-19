@@ -1,0 +1,11 @@
+.crd {
+    height: 70px;
+    width: 70px;
+    align-items: center;
+    background-color: antiquewhite;
+    margin: 500px 0px 0px 1270px;
+    z-index: 1;
+    position: fixed;
+    
+  }
+  
