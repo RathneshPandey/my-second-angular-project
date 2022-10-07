@@ -2,9 +2,26 @@
     width: 500px;
 }
 
+.join {
+    margin: 80px 30px 0px 0px;
+    text-align: center;
+    font-size: 45px;
+
+}
+
 .btn {
-    /* margin: 10px 300px 100px 0px ; */
     justify-content: center;
     align-items: center;
 
+}
+@media screen and (min-width: 360px) and (max-width: 900px) {
+    .join {
+        margin: 80px 30px 0px 0px;
+        text-align: center;
+        font-size: 35px;
+    
+    }
+    .newsletter { 
+        width: 265px;
+    }
 }

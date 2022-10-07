@@ -5,3 +5,42 @@
     background-color: #bbb;
     padding: 8px;
 }
+
+.circle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-spacing {
+    margin: 0px 0px 0px 30px;
+}
+
+.fast {
+    align-items: center;
+    margin: 80px 0px 0px 0px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 900px) {
+    .fast {
+        align-items: center;
+        text-align: center;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .circle {
+        display: inline-block;
+        text-align: center;
+        align-items: center;
+    }
+
+    .circle-spacing {
+        margin: 10px 0px 0px 0px;
+    }
+
+    br {
+        display: none;
+    }
+
+}

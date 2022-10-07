@@ -5,5 +5,34 @@
 }
 .inspired1 {
   margin: -80px 0px 0px 700px;
-  
+  height: 200px; 
+  width: 400px;
+}
+.img {
+  height: 300px; 
+  width: 500px;
+  margin: 120px 0px 0px 90px;
+
+}
+
+.discover{
+  font-size: 40px;
+  font: bold;
+  color: black;
+}
+
+@media screen and (min-width: 360px) and (max-width: 900px) {
+  .img {
+    height: 200px; 
+    width: 350px;
+    margin: 0px 50px 0px 0px;
+  }
+  .inspired {
+    margin: 130px 100px 0px 0px;   
+}
+.inspired1 {
+  margin: 40px 0px 0px 75px;
+  height: 150px; 
+  width: 280px;
+}
 }

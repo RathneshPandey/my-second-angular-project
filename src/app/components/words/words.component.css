@@ -5,10 +5,33 @@
     background-color: #bbb;
     padding: 8px;
 }
+.card {
+    height: 380px;
+    width: 350px;
+    margin: 0px 0px 0px 80px;
+}
+.card-space {
+    margin: 0px 0px 0px 50px;
+}
+.discover{
+    font-size: 45px;
+    color: black;
+    margin: 50px 0px 15px 80px;
+  }
 
-.card_size {
-    width: 350px; 
-    height: 400px;
-    /* margin: 0px 70px 0px 50px; */
-    /* align-items: center; */
+@media screen and (min-width: 360px) and (max-width: 900px) {
+    .card {
+        height: 380px;
+        width: 350px;
+        margin: 0px 50px 0px 0px;
+    }
+    .card-space {
+        margin: 30px 30px 20px 0px;
+    }
+    .discover{
+        font-size: 45px;
+        color: black;
+        margin: 50px 30px 15px 0px;
+      }
+    
 }
