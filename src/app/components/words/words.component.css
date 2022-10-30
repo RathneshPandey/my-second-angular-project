@@ -19,11 +19,11 @@
     margin: 50px 0px 15px 80px;
   }
 
-@media screen and (min-width: 360px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .card {
         height: 380px;
-        width: 350px;
-        margin: 0px 50px 0px 0px;
+        width: 340px;
+        margin: 0px 0px 0px 0px;
     }
     .card-space {
         margin: 30px 30px 20px 0px;
@@ -32,6 +32,10 @@
         font-size: 45px;
         color: black;
         margin: 50px 30px 15px 0px;
+      }
+
+      br {
+        display: none;
       }
     
 }

@@ -14,7 +14,7 @@
     align-items: center;
 
 }
-@media screen and (min-width: 360px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .join {
         margin: 80px 30px 0px 0px;
         text-align: center;
@@ -22,6 +22,6 @@
     
     }
     .newsletter { 
-        width: 265px;
+        width: 245px;
     }
 }

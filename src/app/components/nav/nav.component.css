@@ -8,45 +8,45 @@
 
 /* Or more simply this could work: */
 
-.navbar {
+ .navbar {
   flex-direction: row;
   position: fixed;
 }
 
-.navbar-brand {
-  margin: 0px 0px 0px 100px;
+ul {
+  margin: 0px 0px 0px 360px;
+}
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 85%;
 }
 
-.navbar-collapse {
-  margin: 0px 0px 0px 400px;
-  font-size: 20px;
-}
-
-@media screen and (min-width: 360px) and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .navbar {
-    flex-direction: row;
     position: sticky;
+    top: 0;
+    left: 0;
     width: 100vw;
     z-index: 1;
   }
-  .navbar {
+  
+  /* Or more simply this could work: */
+  
+   .navbar {
+    flex-direction: row;
     position: fixed;
-  }
-  .navbar-brand{
-    margin: 0px 0px 0px 20px;
-  }
-
-  .navbar-toggler {
-    font-size: 20px;
   }
 
   ul {
-    justify-content: center;
-    align-items: center;
+    margin: 0px 36px 0px 0px;
   }
-
-  form {
-    margin: 0px 0px 0px 250px;
-    position: fixed;
+  .icon {
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    left: 60%;
   }
+  
 }

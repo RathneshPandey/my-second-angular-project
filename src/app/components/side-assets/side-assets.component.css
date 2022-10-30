@@ -1,11 +1,25 @@
-.crd {
+.card {
     height: 70px;
     width: 70px;
-    align-items: center;
     background-color: antiquewhite;
     margin: 500px 0px 0px 1270px;
     z-index: 1;
+    position: sticky;   
+  }
+
+  .card {
+    flex-direction: row;
     position: fixed;
-    
   }
   
+
+  .dot {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    bottom: 18px;
+    left: 33px;
+  }

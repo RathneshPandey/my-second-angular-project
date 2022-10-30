@@ -21,17 +21,17 @@
   color: black;
 }
 
-@media screen and (min-width: 360px) and (max-width: 900px) {
+@media screen and (max-width: 900px){
   .img {
     height: 200px; 
-    width: 350px;
-    margin: 0px 50px 0px 0px;
+    width: 335px;
+    margin: 0px 0px 0px 0px;
   }
   .inspired {
     margin: 130px 100px 0px 0px;   
 }
 .inspired1 {
-  margin: 40px 0px 0px 75px;
+  margin: 40px 0px 0px 60px;
   height: 150px; 
   width: 280px;
 }
