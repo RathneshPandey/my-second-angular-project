@@ -3,16 +3,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    min-height: 100vh;
 }
 
-.card{
+.login_card {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px;
-    position: relative;
 }
 
 .crd {
@@ -21,12 +19,12 @@
     background: rgba(255, 255, 255, 0.3);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    --webkit-backdrop-filter: blur(5px);
+    /* --webkit-backdrop-filter: blur(5px); */
     border: 1px solid rgba(255, 255, 255, 0.3);
   
 }
 .crd .input-data input {
-    width: 340px;
+    width: 370px;
     height: 35px;
     background: transparent;
     border-bottom: 2px solid black;
@@ -43,6 +41,7 @@
 
 .input-data {
   position: relative;
+  padding-left: 20px;
   margin-top: 5%;
   margin-bottom: 8%;
   display: flex;
@@ -55,26 +54,35 @@
     font-size: 1em;
 }
 
+.input-data span {
+  position: absolute;
+  top: 40%;
+  transition: 0.3s ease-out;
+
+}
+
+.crd .input-data input:focus + span,
+.crd .input-data input:valid + span {
+    top: 0px;
+    font-size: 10pt;
+}
+
 .icon {
   position: relative;
   right: 6%;
   margin: 25px 0px 0px 0px ;
 }
 
-.input-data span {
-    position: absolute;
-    left: 0;
-    padding: 30px 0px 0px 0px;
-    pointer-events: none;
-    font-size: 1em;
-    transition: 0.5s;
-}
 
 .sl {
     border-top: 2px solid #542269;
-    width: 16vw;
+    width: 220px;
+    display: inline-table;
     position: relative;
-    left: 18%;
+    left: 22%;
+    bottom: 0%;
+    top: 10%;
+    font-size: 15px;
 }
 
 .sl a {
@@ -87,27 +95,30 @@ button[type="submit"] {
   border-radius: 5px;
   border: 1px solid;
   font-weight: bold;
-  margin: 10px 0px 40px;
   color: #542269;
   position: relative;
-  left: 33%;
 }
+
 button[type="submit"]:hover {
   color: #fff;
   background-color: #542269;
   border: 1px solid black;
 }
 
+.login_button {
+  text-align: center;
+}
+
   
-  /* .crd .input-data input:focus ~ span,
-  .crd .input-data input:valid ~ span {
+  /* .crd .input-data input:focus ~ label,
+  .crd .input-data input:valid ~ label {
     top: 0px;
     font-size: 10px;
     transform: translateX(10px) translateY(-7px);
   } */
 
-/* .input-data input:valid ~ span,
-.input-data input:focus ~ span
+/* .input-data input:valid ~ label,
+.input-data input:focus ~ label
 {
     transform: translateX(10px) translateY(-7px);
     font-size: 0.65em;

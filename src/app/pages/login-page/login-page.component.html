@@ -23,22 +23,26 @@
 
 
 <div class="row login-container">
-  <div class="card crd">
-    <div class="card-body">
-      <p class="text-center fs-2">Log in</p>
-      <div class="input-data">
-        <span>Username</span>
-        <input type="email" user="required">
+  <form action="" class="login_card" method="post">
+    <div class="card crd">
+      <div class="">
+        <p class="text-center fs-2">Log in</p>
+        <div class="input-data">
+          <input type="text" id="user" required/>
+          <span for="user">Username</span>
+        </div>
+        <div class="input-data">
+          <input type="password" id="password" required>
+          <span class="password">Password</span>
+          <i class="fa-regular fa-eye fs-6 icon"></i>
+        </div>
+        <div class="login_button">
+        <button type="submit">Login</button>
       </div>
-      <div class="input-data">
-        <span>Password</span>
-        <input type="password" user="required">
-        <i class="fa-regular fa-eye fs-6 icon"></i>
-      </div>
-      <button type="submit" class="">Login</button>
-      <div class="sl">
-        <p class="text-center my-5">Don't have an account <a href="#">Sign up</a></p>
+        <div class="sl">
+          <p class="text-center my-4">Don't have an account <a href="#">Sign up</a></p>
+        </div>
       </div>
     </div>
-  </div>
+  </form>
 </div>

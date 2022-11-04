@@ -17,6 +17,25 @@ import { WordsComponent } from './components/words/words.component';
 import { NewsletterComponent } from './components/newsletter/newsletter.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginPageComponent } from './pages/login-page/login-page.component';
+import { DemoComponent } from './pages/demo/demo.component';
+import { RouterModule, Routes } from '@angular/router';
+import { HomeComponent } from './pages/home/home.component';
+import { ProductsComponent } from './pages/products/products.component';
+const routes: Routes = [
+  {
+    path: '',
+    component: HomeComponent
+  },
+  {
+    path: 'login',
+    component: LoginPageComponent
+  },
+  {
+    path: 'products',
+    component: ProductsComponent
+  }
+   
+]
 
 @NgModule({
   declarations: [
@@ -32,13 +51,17 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
     WordsComponent,
     NewsletterComponent,
     FooterComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    DemoComponent,
+    HomeComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    RouterModule.forRoot(routes)
   ],
   providers: [],
   bootstrap: [AppComponent]
